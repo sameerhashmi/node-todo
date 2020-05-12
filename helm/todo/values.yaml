@@ -22,3 +22,7 @@ ingress:
   host: todos.local
   # Enable automatic TLS with Let's Encrypt
   tls: true
+
+mongodb:
+  # Disable authentication TODO(change) only for demo purposes
+  usePassword: false
